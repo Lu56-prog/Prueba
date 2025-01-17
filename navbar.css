@@ -161,10 +161,6 @@
         margin: 0 10px;
     }
 
-    .navbar {
-        position: fixed;
-    }
-
     .navbar > .container {
         display: flex;
         align-items: center;
