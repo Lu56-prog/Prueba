@@ -286,9 +286,15 @@ color: #626a70;
 }
 
 .option-block-egresado{
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: rgba(255, 255, 255, 0.82);
+    border-radius: 20px;
+}
+
+.option-block-empresa {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: rgba(194, 83, 83, 0.82);
+    border-radius: 20px;
 }
 
 /* Responsive Styles */
