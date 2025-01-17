@@ -27,15 +27,15 @@ h1{
 }
 
 .carousel-1{
-    background-image: url('/src/img/imagen-fondo-HISITPB.jpg' );
+    background-image: url('imagen-fondo-HISITPB.jpg' );
 }
 
 .carousel-2{
-    background-image: url('/src/img/imagen-bloque1.jpg');
+    background-image: url('imagen-bloque1.jpg');
 }
 
 .carousel-3{
-    background-image: url('/src/img/imagen-pascualbravo-2.jpg');
+    background-image: url('imagen-pascualbravo-2.jpg');
 }
 
 
