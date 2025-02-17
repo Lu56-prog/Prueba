@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="style-form1.css">
+    <link rel="stylesheet" href="style-registro.css">
     <link rel="stylesheet" href="style-trabajo.css">
     <link rel="stylesheet" href="style-principal.css">
     <link rel="stylesheet" href="fonts.css">
@@ -18,23 +18,27 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-xl navbar-dark navbar-trabajo" id="navbar">
         <div class="container-fluid">
             <!-- Logo para escritorio -->
             <a href="https://www.tecnicopascualbravo.edu.co/" target="_blank">
-                <img src="ESCUDO1 ITIPB.png" alt="Logo ITIPB" class="pascual-logo logo d-none d-md-block">
+                <img src="/src/img/ESCUDO1 ITIPB.png" alt="Logo ITIPB" class="pascual-logo logo d-none d-md-block">
             </a>
-            <a href="index.html">
-                <img src="ESCUDO1 ASDEPAB.png" class="asdepab-logo logo2 d-none d-md-block" alt="Logo ASDEPAB">
+            <a href="/htmls-pagina-principal/index-principal.html">
+                <img src="/src/img/ESCUDO1 ASDEPAB.png" class="asdepab-logo logo2 d-none d-md-block" alt="Logo ASDEPAB">
             </a>
-            <a href="index-trabajo.html">
-                <img src="ESCUDO PBPR.png" class="PBPR-logo logo2 d-none d-md-block" alt="Logo Pascual Bravo ProRed">
+            <a href="/htmls-pagina-trabajo/index-trabajo.html">
+                <img src="/src/img/ESCUDO PBPR.png" class="PBPR-logo logo2 d-none d-md-block"
+                    alt="Logo Pascual Bravo ProRed">
             </a>
 
             <!-- Logo para móviles -->
-            <img src="ESCUDO2 ITIPB.png" alt="Logo ITIPB Móvil" class="pascual-logo logo d-md-none p-mobile">
-            <img src="ESCUDO2 ASDEPAB.png" class="asdepab-logo logo2 d-md-none a-mobile" alt="Logo ASDEPAB Móvil">
-            <img src="ESCUDO PBPR2.png" class="PBPR-logo logo2 d-md-none a-mobile" alt="Logo Pascual Bravo Pro Red Móvil">
+            <img src="/src/img/ESCUDO2 ITIPB.png" alt="Logo ITIPB Móvil" class="pascual-logo logo d-md-none p-mobile">
+            <img src="/src/img/ESCUDO2 ASDEPAB.png" class="asdepab-logo logo2 d-md-none a-mobile"
+                alt="Logo ASDEPAB Móvil">
+            <img src="/src/img/ESCUDO PBPR2.png" class="PBPR-logo logo2 d-md-none a-mobile"
+                alt="Logo Pascual Bravo Pro Red Móvil">
 
             <!-- Navbar Toggler -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars"
@@ -46,13 +50,7 @@
             <div class="collapse navbar-collapse" id="navbars">
                 <ul class="navbar-nav me-2 mb-2 mb-sm-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="index-trabajo.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="opciones-egresado.html">Egresado</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="opciones-empresa.html">Empresa</a>
+                        <a class="nav-link" href="/htmls-pagina-trabajo/index-trabajo.html">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Ayuda</a>
@@ -61,13 +59,13 @@
                 <!-- Mobile Profile (shown before navbars on mobile) -->
                 <ul class="navbar-nav profile-mobile d-sm-none">
                     <li class="nav-item dropdown profile">
-                    <a class="nav-link perfil dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="UsuarioIcon.png" alt="Perfil" class="profile-img">
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-item" id="register-pc"><a href="/Perfil.html">Ver Perfil</a></li>
-                        </li>
-                    </ul>
+                        <a class="nav-link perfil dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img src="/src/img/UsuarioIcon.png" alt="Perfil" class="profile-img">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item" id="register-pc"><a href="/Perfil.html">Ver Perfil</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -76,7 +74,7 @@
             <ul class="navbar-nav profile-desktop d-none d-sm-flex">
                 <li class="nav-item dropdown profile">
                     <a class="nav-link perfil dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="UsuarioIcon.png" alt="Perfil" class="profile-img">
+                        <img src="/src/img/UsuarioIcon.png" alt="Perfil" class="profile-img">
                     </a>
                     <ul class="dropdown-menu">
                         <li class="dropdown-item" id="register-pc"><a href="/Perfil.html">Ver Perfil</a></li>
@@ -87,69 +85,57 @@
         </div>
     </nav>
 
-    <main>
-        <section>
-            <!--div para que el navbar no colapse con el contenido (separador)-->
-            <div class="row"></div>
-
+    <section class="inicio-sesion">
+        <!--div para que el navbar no colapse con el contenido (separador)-->
+        <div class="row"></div>
+        <main class="form-signins">
             <div class="row cajon-title">
-                <div class="col-12 text-center mt-2">
-                    <h1 class="title-p1 mb-0">Publicar Oferta de Empleo</h1>
-                    <h2 class="subtitle-p1">Ingresa los datos de tu empresa</h2>
+                <div class="col-12 text-center mt-2 mb-2">
+                    <h1 class="title-p1 mb-0">Iniciar Sesión</h1>
                 </div>
             </div>
             
-            <form action="/base_de_datos/EMPRESA/Pub-Form1-Emp.php" method="POST" class="needs-validation" novalidate id="formulario-egresado-1">
-                <div class="cajon-form1-eg">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <input type="text" class="form-control info-form1" name="nombreEmpresaOferta" id="nombreEmpresaOferta" placeholder="Ingrese el nombre de la empresa" required></input>
-                            <div class="invalid-feedback text-center">
-                                ¿Cuál es el nombre de su empresa?
-                              </div>
-                        </div>
-                        <div class="col-md-4">
-                            <input type="text" class="form-control info-form1" name="actividadEmpresaOferta" id="actividadEmpresaOferta" placeholder="Ingrese la actividad principal de la empresa" required></input>
-                            <div class="invalid-feedback text-center">
-                                ¿Cuál es la actividad principal de la empresa?
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <input type="text" class="form-control info-form1" name="direccionEmpresaOferta" id="direccionEmpresaOferta" placeholder="Ingrese la dirección de la empresa" required></input>
-                            <div class="invalid-feedback text-center">
-                                ¿Cuál es la dirección de la empresa?
+            <form action="inicio-sesion.php" method="POST" class="needs-validation" novalidate id="formulario-registro-egresado">
+                <div class="cajon-formincio">
+
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control info-formreg" id="email" name="email" placeholder="Dirección de correo electrónico" required>
+                                <label for="email">Dirección de correo electrónico</label>
+                                <div class="invalid-feedback text-center">
+                                    ¿Cuál es tu correo electrónico con el que cual te registraste?
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row mt-4">
-                        <div class="col-md-4">
-                            <input type="email" class="form-control info-form1" name="correoEmpresaOferta" id="correoEmpresaOferta" placeholder="Ingrese un correo electrónico de contacto" required></input>
-                            <div class="invalid-feedback text-center">
-                                ¿Cuál es el correo electrónico de contacto?
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control info-formreg" id="password" name="password" placeholder="Contraseña" required>
+                                <label for="password">Contraseña</label>
+                                <div class="invalid-feedback text-center">
+                                    ¿Cuál es su contraseña?
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <input type="tel" class="form-control info-form1" name="contactoEmpresaOferta" id="contactoEmpresaOferta" placeholder="Ingrese un número de contacto de la empresa" required></input>
-                            <div class="invalid-feedback text-center">
-                                ¿Cuál es el número de contacto?
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <input type="tel" class="form-control info-form1" name="otrocontactoEmpresaOferta" id="otrocontactoEmpresaOferta" placeholder="Ingrese otro numero de contacto (opcional)"></input>
                         </div>
                     </div>
 
-                    <div class="row d-flex justify-content-center align-items-center text-center">
-                        <div class="col-12 mt-3">
-                            <button type="submit" class="btn btn-primary btn-form1">Enviar Información</button>
-                            <button type="button" class="btn btn-primary btn-form1" onclick="window.location.href='Pub-Form2-Em.html'">Siguiente</button>
+                    <div class="row d-flex justify-content-center text-center mb-2">
+                        <div class="col-md-6">
+                            <button class="btn btn-primary w-50 py-2 btn-form" type="submit">Registrarse</button>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center text-center">
+                        <div class="col-12">
+                            <p class="p-text">¿No tienes cuenta? <a class="a-text" href="Opciones-registro.html"> Registrarse</a></p>
                         </div>
                     </div>
                 </div>
             </form>
-        </section>
-    </main>
+        </main>
+    </section>
 
     <hr class="featurette-divider">
     <!-- FOOTER -->
@@ -221,15 +207,16 @@
      </div>
    </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-    crossorigin="anonymous"></script>
-  <script src="checklogin.js"></script>
-  <script src="navfixed.js"></script>
-  <script src="/script-form1.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="/src/js/checklogin.js"></script>
+    <script src="/src/js/navfixed.js"></script>
+    <script src="/script-form1.js"></script>
 </body>
 
 </html>

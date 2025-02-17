@@ -1,4 +1,6 @@
+
 /* Navbar */
+
 .navbar > .container-fluid {
     color: #222222;
     background-color: rgb(227, 241, 246);
@@ -16,18 +18,16 @@
 }
 
 .navbar {
-    position: static;
+    padding-top: 75rem;
     width: 100%;
     z-index: 100;
     margin: 0;
     padding: 0;
 }
 
-.fixed {
+.navbar.fixed {
     position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-collapse {
@@ -47,8 +47,8 @@
     border-bottom-width: 1px;
 }
 
-.dropdown-toggle:focus {
-    color: rgb(0, 112, 190) !important;
+.dropdown-toggle:focus{
+    color: rgb(0, 112, 190) !important; 
     border-style: solid;
     border-bottom-width: 1px;
 }
@@ -74,8 +74,8 @@
 }
 
 .dropdown-menu {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.1);
 }
 
 .dropdown-item a {
@@ -120,6 +120,7 @@
 }
 
 /* Fin Navbar */
+
 
 /* Navbar V2 */
 .navbar {

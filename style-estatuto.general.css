@@ -1,5 +1,5 @@
 .cajon-estatuto-general {
-    background-image: url('Imagen-fondo-ESTGEN.jpg');
+    background-image: url('/src/img/Imagen-fondo-ESTGEN.jpg');
     background-color: rgba(248, 249, 250, 0.75); 
     background-size: cover; 
     background-position: center; 
@@ -52,6 +52,12 @@
 
 .featurette-divider{
     margin-top: 40px;
+}
+
+.cuadro-libro{
+    border: 2px solid #dee2e6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 @media (max-width: 768px) {

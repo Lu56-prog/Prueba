@@ -17,6 +17,18 @@ h1{
     font-weight: 900;
 }
 
+.option-block-egresado{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: rgba(255, 255, 255, 0.82);
+    border-radius: 20px;
+}
+
+.option-block-empresa {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: rgba(194, 83, 83, 0.82);
+    border-radius: 20px;
+}
+
 /*Carousel*/
 .carousel-1, .carousel-2, .carousel-3{
     background-color: rgba(0, 0, 0, 0.15); 
@@ -27,15 +39,15 @@ h1{
 }
 
 .carousel-1{
-    background-image: url('imagen-fondo-HISITPB.jpg' );
+    background-image: url('/src/img/imagen-fondo-HISITPB.jpg' );
 }
 
 .carousel-2{
-    background-image: url('imagen-bloque1.jpg');
+    background-image: url('/src/img/imagen-bloque1.jpg');
 }
 
 .carousel-3{
-    background-image: url('imagen-pascualbravo-2.jpg');
+    background-image: url('/src/img/imagen-pascualbravo-2.jpg');
 }
 
 
@@ -214,7 +226,7 @@ h1{
 }
 
 .cajon_urltrabajo{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 245, 245);
     border-radius: 8px;
     border: 2px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
@@ -238,12 +250,13 @@ h1{
     height: 400px;
 }
 
-.map-title {
+.map-title, .title-novedades{
     text-align: center;
     justify-content: center;
-    font-size: 34px;
+    font-size: 42px;
     font-weight: 700;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .container-nuestra-institucion {
@@ -285,50 +298,30 @@ margin-top: 20px;
 color: #626a70;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .title-mision-vision {
-        font-size: 30px;
-    }
-
-    .subtitle-mision-vision {
-        font-size: 24px;
-    }
-
-    .description-mision, .description-vision {
-        font-size: 16px;
-    }
-
-    .container-mision-vision {
-        padding: 20px;
-        margin: 20px;
-    }
-    .video-nuestra-institucion {
-        height: 250px; 
-        object-fit: cover; 
-    }
+.iniciosesion{
+    margin: auto;
 }
 
-@media (max-width: 480px) {
-    .title-mision-vision {
-        font-size: 26px;
-    }
+.carousel-inner{
+    background-color: #fafafa;
+    border-radius: 8px;
+    border: 2px solid #c7cfd6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
 
-    .video-nuestra-institucion {
-        height: 200px; 
-    }
+.subtitle-novedad{
+    font-size: 32px;
+    font-weight: 700;
+}
 
-    .subtitle-mision-vision {
-        font-size: 20px;
-    }
-
-    .description-mision, .description-vision {
-        font-size: 14px;
-    }
+.description-novedad{
+    font-size: 20px;
+    font-weight: 400;
 }
 
 /* @Medias */
-@media (max-width: 1025px) {
+
+@media (max-width: 1028px) {
     body {
         background-color: #f0f0f0; 
     }
@@ -365,14 +358,53 @@ color: #626a70;
     .frase-pascualinos {
         font-size: 16px;
     }
-}
-  
-@media (max-width: 576px) {
+
     .map-container {
         margin: 10px;
         padding: 5px;
     }
     .map-container iframe {
         height: 250px;
+    }
+
+    .title-mision-vision {
+        font-size: 26px;
+    }
+
+    .video-nuestra-institucion {
+        height: 200px; 
+    }
+
+    .subtitle-mision-vision {
+        font-size: 20px;
+    }
+
+    .description-mision, .description-vision {
+        font-size: 14px;
+    }
+
+    .title-mision-vision {
+        font-size: 30px;
+    }
+
+    .subtitle-mision-vision {
+        font-size: 24px;
+    }
+
+    .description-mision, .description-vision {
+        font-size: 16px;
+    }
+
+    .container-mision-vision {
+        padding: 20px;
+        margin: 20px;
+    }
+    .video-nuestra-institucion {
+        height: 250px; 
+        object-fit: cover; 
+    }
+
+    .cajon.libro{
+        width: 100%;
     }
 }

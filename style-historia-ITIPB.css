@@ -23,7 +23,7 @@
 }
 
 .cajon-historia-ITIPB {
-    background-image: url('imagen-fondo-HISITPB.jpg');
+    background-image: url('/src/img/imagen-fondo-HISITPB.jpg');
     background-color: rgba(248, 249, 250, 0.75); 
     background-size: cover; 
     background-position: center; 
