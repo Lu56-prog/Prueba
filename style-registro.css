@@ -1,5 +1,5 @@
 .cajon-formincio{
-    background-image: url(/src/img/imagen-bloque-1.jpg);
+    background-image: url(imagen-bloque-1.jpg);
     background-size: cover;
     background-position: center; 
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -16,7 +16,7 @@
 }
 
 .cajon-formreg{
-    background-image: url(/src/img/imagen-bloque-1.jpg);
+    background-image: url(imagen-bloque-1.jpg);
     background-size: cover;
     background-position: center; 
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;

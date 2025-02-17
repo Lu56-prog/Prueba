@@ -9,7 +9,7 @@
     height: 100vh;
     background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/src/img/imagen-bloque1.jpg");
+    url("imagen-bloque1.jpg");
     background-position: center;
     color: white;
     opacity: 1;

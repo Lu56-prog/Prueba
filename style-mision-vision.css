@@ -26,11 +26,11 @@
 }
 
 .container-mision{
-    background-image: url('/src/img/imagen-bloque-1.jpg');
+    background-image: url('imagen-bloque-1.jpg');
 }
 
 .container-vision{
-    background-image: url('/src/img/imagen-bloque-2.jpg');
+    background-image: url('imagen-bloque-2.jpg');
 }
 
 .container-mision:hover, .container-vision:hover {

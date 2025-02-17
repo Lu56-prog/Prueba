@@ -9,6 +9,6 @@ $_SESSION['correoEmpresaOferta'] = $_POST['correoEmpresaOferta'];
 $_SESSION['contactoEmpresaOferta'] = $_POST['contactoEmpresaOferta'];
 $_SESSION['otrocontactoEmpresaOferta'] = $_POST['otrocontactoEmpresaOferta'];
 
-header("Location: /htmls-pagina-trabajo/Empresa/Pub-Form2-Em.html");
+header("Location: Pub-Form2-Em.html");
 exit();
 ?>

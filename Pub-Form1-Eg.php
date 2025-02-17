@@ -13,6 +13,6 @@ $_SESSION['fnacimientoEgresadoSolicitud'] = $_POST['fnacimientoEgresadoSolicitud
 $_SESSION['paisEgresadoSolicitud'] = $_POST['paisEgresadoSolicitud'];
 $_SESSION['ciudadEgresadoSolicitud'] = $_POST['ciudadEgresadoSolicitud'];
 
-header("Location: /htmls-pagina-trabajo/Egresado/Pub-Form2-Eg.html");
+header("Location: Pub-Form2-Eg.html");
 exit();
 ?>
