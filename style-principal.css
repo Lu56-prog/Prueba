@@ -1,12 +1,11 @@
+.body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f0f0f0;
+    color: #222222;
+}
 
 main {
     width: 100%;
-}
-
-body{
-    font-family: Quicksand;
-    background-color: #f0f0f0;
-    color:#222222;
 }
 
 html, body {
